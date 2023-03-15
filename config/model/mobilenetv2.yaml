@@ -1,0 +1,5 @@
+name: mobilenetv2
+object:
+  _target_: model_loading.mobilenetv2.MobileNetV2
+  num_classes: ${num_classes}
+  pretrained: ${pretrained}

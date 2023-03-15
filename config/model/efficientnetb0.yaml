@@ -1,0 +1,7 @@
+name: efficientnetb0
+object:
+  _target_: monai.networks.nets.EfficientNetBN
+  model_name: efficientnet-b0
+  num_classes: ${num_classes}
+  pretrained: ${pretrained}
+  

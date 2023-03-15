@@ -1,0 +1,5 @@
+name: resnet34
+object:
+  _target_: model_loading.resnet34.ResNet34
+  num_classes: ${num_classes}
+  pretrained: ${pretrained}

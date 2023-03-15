@@ -1,0 +1,4 @@
+name: vit_b_16
+object:
+  _target_: model_loading.vit_b_16.ViT_B_16
+  num_classes: ${num_classes}

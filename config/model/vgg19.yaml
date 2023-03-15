@@ -1,0 +1,5 @@
+name: vgg19
+object:
+  _target_: model_loading.vgg19.VGG19
+  num_classes: ${num_classes}
+  pretrained: ${pretrained}
